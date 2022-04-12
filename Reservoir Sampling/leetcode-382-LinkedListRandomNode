@@ -1,0 +1,40 @@
+public class Solution {
+
+    public class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
+    }
+    ListNode head;
+    public Solution(ListNode head) {
+        this.head = head;
+    }
+
+    public int getRandom() {
+        ListNode cur = head;
+        int ans = -1;
+        int count = 1;
+        while (cur != null){
+            if (ans == -1){
+                ans = cur.val;
+            }else if ((int) (Math.random() * (count)) == count - 1){
+                ans = cur.val;
+            }
+            count ++;
+            cur = cur.next;
+        }
+        return ans;
+    }
+
+}
