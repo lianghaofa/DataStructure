@@ -1,0 +1,27 @@
+public class Solution {
+    
+    int[] nums;
+    
+    public Solution(int[] nums) {
+        this.nums = nums;
+    }
+
+    public int pick(int target) {
+        int count = 0;
+        int ans = -1;
+        for (int i = 0; i < nums.length; i ++){
+            if (nums[i] == target){
+                if (ans == -1){
+                    ans = i;
+                    count = 1;
+                }else {
+                    count ++;
+                    if ((int) (Math.random() * (count)) == count - 1){
+                        ans = i;
+                    }
+                }
+            }
+        }
+        return ans;
+    }
+}
