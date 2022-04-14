@@ -1,4 +1,5 @@
 Reservoir Sampling
+![reservoir](https://user-images.githubusercontent.com/24481784/163451185-ce032bda-a284-49d3-b673-d05e86a2907b.jpg)
 
     // suppose k is 10
 
