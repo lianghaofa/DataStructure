@@ -60,3 +60,21 @@ we treat this like a RR problem;
 LL RR can't happen at the same time.
 
 
+add method. add a node, we just adjust from node to root.
+
+
+delete method. delete a node 
+when a node is child, we just adjust from node to root.
+
+// how to delete, same as delete a node in binary tree.
+when a node just have right child, right child replace this node posttion and then adjust from node to root.
+
+when a node just have left child, same as the aboved list;
+
+but a node have left child and right child.
+
+find the replace node and  replace node parent, replace node replace the delete position, and then adjust replace node from parent to root.
+
+
+
+
