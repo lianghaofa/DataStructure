@@ -6,4 +6,4 @@
 
 3.Hash Function
 
-4.AVL,SIZE Balanced Tree,SkipTable
+4.OrderTable : AVL,SIZE Balanced Tree,SkipTable
