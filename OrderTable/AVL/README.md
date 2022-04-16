@@ -38,9 +38,24 @@ when we delete n node.
 LL LR problem
 ![20645f2098c8d07e9a147192d3c26a4](https://user-images.githubusercontent.com/24481784/163670037-49d44f30-72b0-4ada-b5a8-545df8fcca9c.png)
 
-we treat this like a LL probel;
+we must treat this like a LL problem;
+![d1a90f4f3c89f337cb83c2d8a963ae9](https://user-images.githubusercontent.com/24481784/163670169-c7e9860c-1009-469f-a37a-fb7511ddc38a.png)
+
+
+in this case. LL LR both right.
+![cac2f7ca02094571be9003abf9a9087](https://user-images.githubusercontent.com/24481784/163670439-6629cbc2-7a3c-44e7-89ba-e7b807c5bcb6.png)
+![c5dbcba30e4bb802228f87063060157](https://user-images.githubusercontent.com/24481784/163670445-dbe8ba7a-1ae4-4c2b-80e5-fdf1539c84c1.png)
+
+but s is 4, LR will be wrong.
+![ecebdb37afe9a581dd4fdf0ec03236c](https://user-images.githubusercontent.com/24481784/163670531-7b98e48b-4473-441c-b880-0d492ce2b778.png)
+
+
+treat this like a LR problem may be wrong!
+
+
+
 RR RL  problem
-we treat this like a RR probel;
+we treat this like a RR problem;
 
 LL RR can't happen at the same time.
 
