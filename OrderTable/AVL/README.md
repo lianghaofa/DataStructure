@@ -33,3 +33,14 @@ L rotation.
 R rotation.
 
 and then L rotation.
+
+when we delete n node.
+LL LR problem
+![20645f2098c8d07e9a147192d3c26a4](https://user-images.githubusercontent.com/24481784/163670037-49d44f30-72b0-4ada-b5a8-545df8fcca9c.png)
+we treat this like a LL probel;
+RR RL  problem
+we treat this like a RR probel;
+
+LL RR can't happen at the same time.
+
+
